@@ -1,2 +1,1 @@
-# prife
-Prife - Post Random Items From Eagle
+# Daily Post via Webhooks
