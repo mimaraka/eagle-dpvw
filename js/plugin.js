@@ -163,7 +163,7 @@ eagle.onPluginCreate(async plugin => {
 	setInterval(async () => {
 		const library = await eagle.library.info();
 		const currentConfig = await getConfig();
-		if (library.name == currentConfig.library) {
+		if (library.path == currentConfig.library) {
 			const now = new Date();
 			const lastPostedAt = new Date(currentConfig.lastPostedAt);
 			if (now.toDateString() != lastPostedAt.toDateString()) {
