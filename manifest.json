@@ -1,0 +1,16 @@
+{
+    "id": "bf74f788-2edf-4421-9b5c-fe52165dd395",
+    "version": "1.0.0",
+    "platform": "all",
+    "arch": "all",
+    "name": "Daily Post via Webhooks",
+    "logo": "/logo.png",
+    "keywords": [],
+    "devTools": false,
+    "main": {
+        "serviceMode": true,
+        "url": "index.html",
+        "width": 640,
+        "height": 480
+    }
+}

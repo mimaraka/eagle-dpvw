@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <script type="text/javascript" src="js/plugin.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <label for="library">Observing Library Name</label>
+        <input type="text" id="library" name="library" placeholder="Enter Library Name..." onchange="onChange()">
+
+        <label for="webhook">Webhook URL</label>
+        <input type="text" id="webhook" name="webhook" placeholder="Enter Webhook URL..." onchange="onChange()">
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" value="Eagle" placeholder="Enter Username..." onchange="onChange()">
+
+        <label for="avatar">Avatar URL</label>
+        <input type="text" id="avatar" name="avatar" placeholder="Enter Avatar URL..." onchange="onChange()">
+
+        <label for="check-interval">Check Interval (sec)</label>
+        <input type="number" id="check-interval" name="check-interval" value="60" onchange="onChange()">
+    </div>
+</body>
+
+</html>
